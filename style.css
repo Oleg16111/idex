@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Smooch:regular&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Quantico:regular,italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-MediumItalic.woff') format('woff2'),
+        url('../fonts/Gilroy-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 *,
 *::before,
 *::after {
@@ -27,18 +47,33 @@ h6 {
 img {
 	vertical-align: top;
 }
-h3{
-    color:darkblue
+
+h1{
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px rgb(123, 29, 29);
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text{
+    font-family: "Smooch", sans-serif
+
+}
+.texton {
+    font-family: "Quantico";
+line-height: 150%;
+text-indent: 70px;
+}
+.texttw{
+    font-family: "Gilroy";
+    text-indent: 70px;
+}
+.texttr{
+    text-align: center;
+    text-indent: 70px;
 }
 span{
-    color:aqua;
-}
-.zagolovki {
-    color:rgb(89, 47, 107);
-}
-strong{
-    color:aquamarine;
-}
-#pozicii{
-    color:gold
+    white-space: nowrap;
+text-shadow: 1px 1px 1px rgba(226,26,29, 0.5);
 }
